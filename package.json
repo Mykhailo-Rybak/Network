@@ -1,11 +1,8 @@
 {
-  "name": "react-way-of-samurai",
+  "name": "MR",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://it-kamasutra.github.io/react-way-of-samurai",
   "dependencies": {
-    "@ant-design/icons": "^4.4.0",
-    "antd": "^4.12.2",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "react": "^16.8.6",

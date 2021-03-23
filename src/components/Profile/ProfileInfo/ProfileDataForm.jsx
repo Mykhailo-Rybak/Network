@@ -5,8 +5,7 @@ import {reduxForm} from "redux-form";
 import style from "../../common/FormsControls/FormsControls.module.css";
 
 const ProfileDataForm = ({handleSubmit, profile, error}) => {
-    return <form onSubmit={handleSubmit}>
-        <div><button>save</button></div>
+    return <form className='user__info' onSubmit={handleSubmit}>
         {error && <div className={style.formSummaryError}>
             {error}
         </div>
@@ -35,6 +34,7 @@ const ProfileDataForm = ({handleSubmit, profile, error}) => {
             </div>
         })}
         </div>
+        <div ><button>save</button></div>
     </form>
 }
 
